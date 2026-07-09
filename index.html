@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RDC Diagnostic Centre</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f5f7fb;
+    color:#333;
+}
+
+/* ===========================
+   Header
+=========================== */
+
+header{
+    background:#fff;
+    border-bottom:1px solid #e8e8e8;
+}
+
+.container{
+    max-width:1100px;
+    margin:auto;
+    padding:18px 20px;
+}
+
+.top-bar{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.logo h1{
+    font-size:32px;
+    font-weight:700;
+    color:#1565c0;
+    text-align:center;
+}
+
+/* ===========================
+   Hero
+=========================== */
+
+.hero{
+    max-width:600px;
+    margin:60px auto;
+    background:#fff;
+    padding:40px 30px;
+    border-radius:12px;
+    box-shadow:0 8px 24px rgba(0,0,0,.08);
+}
+
+/* ===========================
+   Buttons
+=========================== */
+
+.top-actions{
+    display:flex;
+    justify-content:center;
+    gap:16px;
+}
+
+.btn{
+    flex:1;
+    max-width:220px;
+    text-align:center;
+    text-decoration:none;
+    background:#1565c0;
+    color:#fff;
+    padding:14px 20px;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:600;
+    transition:.25s;
+}
+
+.btn:hover{
+    background:#0d47a1;
+}
+
+/* ===========================
+   Mobile
+=========================== */
+
+@media(max-width:768px){
+
+    .container{
+        padding:16px;
+    }
+
+    .logo h1{
+        font-size:26px;
+    }
+
+    .hero{
+        margin:30px 15px;
+        padding:30px 20px;
+    }
+
+    .top-actions{
+        flex-direction:column;
+    }
+
+    .btn{
+        max-width:100%;
+        width:100%;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<header>
+
+    <div class="container">
+
+        <div class="top-bar">
+
+            <div class="logo">
+                <h1>RDC Diagnostic Centre</h1>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</header>
+
+<section class="hero">
+
+
+                <div class="top-actions">
+                <a href="packages.html" class="btn">Packages</a>
+                <a href="tests.html" class="btn">Test/Scan</a>
+            </div>
+
+
+</section>
+
+
+
+
+</body>
+</html>
